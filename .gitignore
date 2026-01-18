@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+env/
+
+# ChromaDB (too large, will rebuild on cloud)
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files (optional - include if you want mock data in repo)
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
